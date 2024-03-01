@@ -11,6 +11,7 @@ console.log("Sum of A and B is: " + (a + b));
 // Increment the value of b by 1 and then log the previous value of b (20) to the console
 console.log("Value of B on post increament: " + (b++));
 
+
 // Log the new value of b (21) to the console
 console.log("New value of b: " + (b));
 
