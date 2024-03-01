@@ -17,3 +17,8 @@ console.log("New value of b: " + (b));
 
 // Increment the value of a by 1, then log the new value of a (11) to the console
 console.log("Value of A on pre-increament: " + (++a));
+
+let g = "game of thrones"
+console.log(g)
+
+console.table([a,b,g])
