@@ -18,15 +18,22 @@
             dolorem sit sapiente unde optio culpa, explicabo architecto quo. Fuga odit facilis dolorem!</p>
     </div>
     <script>
-        var a = 'zaid';
-        var b = 'bin';
-        var c = 'farooq';
+        var a = 'zaid'; //strings
+        var b = 'bin';//strings
+        var c = 'farooq';//strings
+        var u = "I am zaid";//strings
         // var temp = '${a} is son of ${c}';
         console.log("my name is " + (a + b + c)); //concatenate
         // console.log(temp);
         var x = a.length;
-        console.log('length of a is: '+ x);
+        // console.log(u.toUpperCase()); //to upper case
+        var pos=u.indexOf('z'); //to check position/index of z
+        console.log(pos);
+        console.log('length of a is: ' + x);
+        var repl=u.replace('zaid','ZaId'); //using u.replace() to replace string 
+        console.log(repl);
     </script>
 </body>
 
 </html>
+     
