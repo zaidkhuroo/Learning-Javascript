@@ -9,6 +9,7 @@ console.log(zaid);   // undefined
 
 let stringID= Symbol(12)
 let stringIDS=Symbol(12)
+console.log(typeof stringID);
 console.log(stringID === stringIDS);    // false
 
 let BigNo=1223421323n
