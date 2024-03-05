@@ -1,19 +1,19 @@
 // primitive 
 // String, number, boolean, NULL, Undefined, Symbol, Big Int
 
-const marks= 100
+const marks = 100
 console.log(typeof marks);
 
 let zaid;
 console.log(zaid);   // undefined
 
-let stringID= Symbol(12)
-let stringIDS=Symbol(12)
+let stringID = Symbol(12)
+let stringIDS = Symbol(12)
 console.log(typeof stringID);
 console.log(stringID === stringIDS);    // false
 
-let BigNo=1223421323n
-console.log(typeof  BigNo);             // bigint
+let BigNo = 1223421323n
+console.log(typeof BigNo);             // bigint
 
 
 console.log("-----------------------------------");
@@ -23,14 +23,14 @@ console.log("-----------------------------------");
 const arr = ['Zaid', 'Bin', 'Farooq'];
 console.log(typeof arr);                     // object
 let human = {
-    name:"zaid",
-    dob:1998,
-    age:26,
+    name: "zaid",
+    dob: 1998,
+    age: 26,
 }
 console.log(typeof human);                   // object
 
 
-let fun= function showMessage(){
+let fun = function showMessage() {
     console.log("Hello Boss");
 }
 console.log(typeof fun);                      // function
