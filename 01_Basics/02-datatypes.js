@@ -1,4 +1,4 @@
-let a = 12 //integer
+let a = 12 //integer.
 let b = "hello"//string
 let c = true; //boolean
 let f = null //null

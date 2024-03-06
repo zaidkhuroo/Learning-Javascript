@@ -9,7 +9,7 @@ console.log(name);   // Output: Zaid
 
 
 
-// Heap(Non-primitive)
+// Heap(Non-primitive).
 let demo = {
     name: 'zaid',
     age: 25

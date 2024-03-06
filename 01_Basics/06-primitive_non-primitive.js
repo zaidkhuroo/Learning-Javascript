@@ -1,5 +1,5 @@
 // primitive 
-// String, number, boolean, NULL, Undefined, Symbol, Big Int
+// String, number, boolean, NULL, Undefined, Symbol, Big Int.
 
 const marks = 100
 console.log(typeof marks);

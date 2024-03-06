@@ -1,5 +1,5 @@
 
-        // Assigning string values to variables 'a', 'b', 'c', 'u'
+        // Assigning string values to variables 'a', 'b', 'c', 'u'.
 var a = 'zaid'; //strings
 var b = 'bin';//strings
 var c = 'farooq';//strings

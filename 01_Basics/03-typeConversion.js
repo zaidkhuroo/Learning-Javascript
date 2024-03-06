@@ -5,7 +5,7 @@ let a = 'zaid' // string
 console.log(typeof(a)) // string
 
 // Convert the string 'zaid' to a number and assign it to variable 'b'
-let b = Number(a) // number
+let b = Number(a) // number.
 
 // Display the value of variable 'b'
 console.log(b) // NaN

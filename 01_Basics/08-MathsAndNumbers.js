@@ -39,7 +39,7 @@ console.log(Math.floor(19.7)); // Round down to the nearest integer
 console.log(Math.abs(-156)); // Get the absolute value
 console.log(Math.random()); // Generate a random floating-point number between 0 and 1
 console.log(Math.random() * 10); // Generate a random floating-point number between 0 and 10
-console.log(Math.floor(Math.random() * 10) + 1); // Generate a random integer between 1 and 10
+console.log(Math.floor(Math.random() * 10) + 1); // Generate a random integer between 1 and 10.
 
 const min = 5;
 const max = 12;

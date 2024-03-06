@@ -2,7 +2,7 @@
 let a = 10;
 let b = 20;
 
-// Log the value of b to the console
+// Log the value of b to the console.
 console.log(b);
 
 // Display a message with the sum of a and b, and then log the result (30) to the console
