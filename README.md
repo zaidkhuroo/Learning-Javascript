@@ -1,2 +1,2 @@
 # Learning-Javascript
-This is the repository for all of dynamic pages embedded with my Javascript
+This repository has all of the programs written in Javascript to improve understanding javascript and learn how to use it.
