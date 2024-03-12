@@ -9,10 +9,12 @@ console.log(newarray)
 
 // // array methods
 myarray.push(12)
+myarray.push(89)
 console.log('before push', myarray);
-myarray.pop(12)
+myarray.pop(12) 
 console.log('after pop', myarray);
 
+console.log(myarray.includes(11)); //   return true or false if a value is in the array
 myarray.unshift(9); //  add at the beginning of an array
 console.log(myarray);
 myarray.shift(0) //  remove from the beginning of an array
@@ -25,6 +27,7 @@ console.log("array splice", myarray.splice(4, 6));     // remove elements starti
 console.log('final array after splice', myarray)                    // splice modifies the original
 
 console.log(myarray.includes(40)); //  return true or false if a value is in the array
+console.log(myarray.includes(11)); //   return true or false if a value is in the array
 console.log(myarray.indexOf(40)); //  return the first occurrence of a specified value 
 //  or -1 if it's not present
 let mynewarray = myarray.join() //  join all elements into one string with no separator
