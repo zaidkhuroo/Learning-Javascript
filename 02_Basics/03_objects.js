@@ -24,4 +24,8 @@ console.log(typeof(my_obj[new_symbol]));
 my_obj.email= 'zaid@mail.com' //  adding a new property to the existing object
 console.log(my_obj.email); //  access newly added property
 Object.freeze(my_obj.email) ; // making the obj .email property non-configurable , writable and enumerable false
-my_obj.email= 'abc@mail.com' // changing the value of already existing property(in this case it won't apply as the property is already freezed)
+my_obj.email= 'abc@mail.com' // changing the value of already existing property(in this case it won't apply as the property is already freezer)
+
+
+
+//every thing on js is object but js is not oop lang 
