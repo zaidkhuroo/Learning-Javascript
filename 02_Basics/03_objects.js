@@ -28,4 +28,12 @@ my_obj.email= 'abc@mail.com' // changing the value of already existing property(
 
 
 
-//every thing on js is object but js is not oop lang 
+//every thing on js is object but js is not oop lang
+
+const myobj={
+    name:'zaid',
+    age: 26,
+    gender:'male'
+
+};
+console.log(myobj);
