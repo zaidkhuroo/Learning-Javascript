@@ -7,11 +7,14 @@ console.log(myarray.concat([8, 9, 10]));
 let newarray = new Array(34, 76, 12, 56, 78)
 console.log(newarray)
 
+let conc = myarray.concat(newarray);
+console.log('Concatenated: ', conc);
+
 // // array methods
 myarray.push(12)
 myarray.push(89)
 console.log('before push', myarray);
-myarray.pop(12) 
+myarray.pop(12)
 console.log('after pop', myarray);
 
 console.log(myarray.includes(11)); //   return true or false if a value is in the array
@@ -22,7 +25,7 @@ console.log(myarray);
 console.log("array slice", myarray.slice(2, 6));     // from index 2 to 6 (not including 6)
 // slice does not modify the original
 console.log(myarray)
-console.log("array splice", myarray.splice(4, 6));     // remove elements starting at index 2 and continue for 6 elements
+console.log("array splice", myarray.splice(4, 6));     // remove elements starting at index 4 and continue for 6 elements
 // returns an array of removed elements
 console.log('final array after splice', myarray)                    // splice modifies the original
 
