@@ -8,3 +8,23 @@ myarr.forEach((val, idx, myarr) => {
     console.log(val, idx, myarr);  
     
 });
+
+// practice
+let mynumbers = [1, 2, 3, 4];
+let square=0;
+mynumbers.forEach((sqr) => { 
+
+square =sqr*sqr;
+console.log(square); 
+
+});
+
+
+// other method
+
+let myar = [1, 2, 3, 4];
+myar.forEach((sqr) => { 
+
+console.log(sqr*sqr); 
+
+});
