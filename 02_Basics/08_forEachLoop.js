@@ -20,7 +20,7 @@ console.log(square);
 });
 
 
-// other method
+// other way
 
 let myar = [1, 2, 3, 4];
 myar.forEach((sqr) => { 
@@ -28,3 +28,5 @@ myar.forEach((sqr) => {
 console.log(sqr*sqr); 
 
 });
+
+
