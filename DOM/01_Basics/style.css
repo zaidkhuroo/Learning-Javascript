@@ -5,3 +5,12 @@ h2{
     background-color: beige;
     color: brown;
 }
+.ptag{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+.newptag{
+    color: rgb(21, 255, 0);
+    font-weight: bold;
+}

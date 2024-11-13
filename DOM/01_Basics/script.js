@@ -1,3 +1,10 @@
+let butn = document.createElement("button");
+butn.innerText = "Hi";
+butn.style.color = "white";             
+butn.style.backgroundColor = "blue"; 
+document.querySelector("body").prepend(butn);
+
+
 let ch = document.querySelector("h1");
 ch.innerText = ch.innerText + " hey there";
 
@@ -14,3 +21,6 @@ for (div of mydivs) {
     div.innerText = `i am the ${id} div `;
     id++;
 }
+
+let ptag = document.querySelector("p");
+ptag.classList.add("newptag");
