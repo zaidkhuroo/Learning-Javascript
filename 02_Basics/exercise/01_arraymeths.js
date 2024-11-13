@@ -8,7 +8,7 @@ console.log(scorer);
 
 // 2
 
-function sum() {
+function exercise() {
     let n = prompt("Enter a number");
     let arr = []
     for (let i = 1; i <= n; i++) {
@@ -21,8 +21,8 @@ function sum() {
     });
     console.log('sum: ', sum);
     let product = arr.reduce((curr, val) => {
-        return curr + val;
+        return curr * val;
     });
     console.log('product: ', product);
 }
-sum();
+exercise();
