@@ -1,0 +1,13 @@
+.mydiv{
+    background-color: red;
+    width: 200px;
+    height:200px;
+    color: yellow;
+}
+
+.dark{
+    background-color: black;
+}
+.light{
+    background-color: white;
+}
