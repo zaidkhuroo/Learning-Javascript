@@ -34,6 +34,7 @@ allbox.forEach((boxer) => {
 const resetGame = () => {
     turn0 = true;
     enableboxer();
+    msg.innerText = ""; 
 };
 
 const disableboxer = () => {
@@ -44,7 +45,7 @@ const disableboxer = () => {
 
 const enableboxer = () => {
     for (let box of allbox) {
-        box.enabled = true;
+        box.disabled="false";
         box.innerText = "";
     }
 };
